@@ -18,7 +18,8 @@
  * Atto styles - Settings file
  *
  * @package    atto_styles
- * @copyright  2015 Andrew Davidson, Synergy Learning UK <andrew.davidson@synergy-learning.com> on behalf of Alexander Bias, Ulm University <alexander.bias@uni-ulm.de>
+ * @copyright  2015 Andrew Davidson, Synergy Learning UK <andrew.davidson@synergy-learning.com>
+ *             on behalf of Alexander Bias, Ulm University <alexander.bias@uni-ulm.de>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -29,8 +30,11 @@ $ADMIN->add('editoratto', new admin_category('atto_styles', new lang_string('plu
 $settings = new admin_settingpage('atto_styles_settings', new lang_string('settings', 'atto_styles'));
 
 if ($ADMIN->fulltree) {
+    $a = new stdClass();
+    $a->code_example = new lang_string('code_example', 'atto_styles');
+    $a->code_example_bootstrap = new lang_string('code_example_bootstrap', 'atto_styles');
     $name = new lang_string('config', 'atto_styles');
-    $desc = new lang_string('config_desc', 'atto_styles');
+    $desc = new lang_string('config_desc', 'atto_styles', $a);
     $default = '';
 
     $setting = new admin_setting_configtextarea('atto_styles/config',

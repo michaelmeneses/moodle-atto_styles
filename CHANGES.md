@@ -4,8 +4,31 @@ moodle-atto_styles
 Changes
 -------
 
-### Unreleased
+### v3.8-r1
 
+* 2020-02-12 - Prepare compatibility for Moodle 3.8.
+
+### v3.7-r2
+
+* 2019-09-26 - Make codechecker happy.
+
+### v3.7-r1
+
+* 2019-08-16 - Enriched README.md with extensive examples.
+* 2019-08-05 - Renamed behat feature file.
+* 2019-08-05 - Updated Bootstrap info in README.md.
+* 2019-08-05 - Prepare compatibility for Moodle 3.7.
+
+### v3.6-r1
+
+* 2019-04-09 - Improvement: Add "Select some text first to apply this style" hint to inline elements.
+* 2019-04-09 - Improvement: Change list item icons to FontAwesome.
+* 2019-04-09 - Improvement: Add preview to dropdown menu.
+* 2019-04-09 - Check compatibility for Moodle 3.6, no functionality change.
+
+### v3.5-r2
+
+* 2019-04-09 - Improvement: Make sure that the dropdown menu does not protrude from the editor.
 * 2018-12-05 - Changed travis.yml due to upstream changes.
 
 ### v3.5-r1
